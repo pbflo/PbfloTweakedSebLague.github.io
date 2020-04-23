@@ -27,9 +27,9 @@ data = `
 ----------------- TEMPLATE ----------------- 
 
 #template:
-<a> @mood@ @genre@ game about @theme@ and @theme@, @wildcard@
-<a> @mood@ @genre@ game @wildcard@ where you play as @character@ @goal@
-<a> @mood@ @genre@ game about @theme@, where you play as @character:nopost@ @setting@
+<a> @mood@ @genre@ Spiel über @theme@ und @theme@, @wildcard@
+<a> @mood@ @genre@ Spiel @wildcard@ in dem du als @character@ spielst mit dem Ziel @goal@
+<a> @mood@ @genre@ Spiel über @theme@, indem du als @character:nopost@ @setting@
 <a> @mood@ @genre@ game that takes place @setting@, where you play as @character@ @goal@
 <a> @mood@ game about @theme@ [set, that takes place] @setting@, where you play as @character@ @goal@
 <a> @mood@ [mix between, mashup of, blend of] the @genre:nomods@ and @genre:nomods@ game genres, where you play as @character@ @goal@
@@ -40,34 +40,34 @@ data = `
 
 ----------------- GENRE (a ... game) ----------------- 
 #genre:
-platformer
-metroidvania
-endless runner
-shooter
-bullet hell
-sports
-strategy
-puzzle
-stealth
-role-playing
-roguelike
-dating
-survival
-horror
-card
-rhythm
-adventure
-tower-defense
-clicker
-hack-and-slash
-educational
-text-adventure
-typing
-sandbox
-programming
-[boat, car, kart, bike, helicopter] racing
-[theme-park, business-management, city-management, farming] simulation
-[fishing, football, cricket, basketball, hockey, tennis, table tennis, baseball, golf, volleyball, fencing, sword fighting, horse riding, snow boarding, skiing, skateboarding]
+Platformer
+Metroidvania
+Endless runner
+Shooter
+Bullet hell
+Sport
+Strategie
+Puzzle
+Stealth
+Role-playing
+Roguelike
+Dating
+Survival
+Horror
+Karten
+Rythmus
+Abenteuer
+Tower-defense
+Klicker
+Hack-and-slash
+Educational
+Text-adventure
+Schreib
+Sandbox
+Programmier
+[Boot, Auto, Kart, Fahrrad, Helikopter]renn
+[Freizeitpark, business-management, city-management, farming]simulation
+[Fischen, Fußball, Cricket, Basketball, Hockey, Tennis, Tischtennis, Baseball, Golf, Volleyball, Fecht, Schwertkampf, Pferdereiten, Snowboarding, Ski, Skateboard]
 #end
 
 // a ... #genre game
@@ -91,132 +91,133 @@ side-view
 
 ----------------- CHARACTERS (you play as a...) ----------------- 
 #group_name:
-group
-[faction, gang, family, band, horde]
-[organization, league]
+Gruppe
+[Faktion, Gang, Familie, Band, Horde]
+[Organisation, Verband]
 #end
 
 #character:
-alien
-monster
-wizard
-witch
-adventurer
-assassin
-sailor
-chef
-robot
-ghost
-human
-skeleton
-[duck, goose, penguin, fish, whale, shark]
-[puppy, dog, kitten, cat, mammoth, dinosaur, dragon]
-[bee, ant, fly, mosquito]
-snowman
-scientist
-programmer
-student
-youtuber
-influencer
-celebrity
-president
-politician
-[businessman, businesswoman]
-emperor
-god
-ninja
-technophobe
-vampire
-hacker
-zombie
-action figure
-geometric shape
-thief
-pirate
-artificial intelligence
-[prince, princess, king, queen]
-[grandmother, grandfather]
-[troll, goblin, orc, dwarf]
-knight
-farmer
-astronaut
-pilot
-chocolatier
-archeologist
-doctor
-police officer
-detective
-pyromaniac
-gamer
-tax collector
-plumber
-electrician
-mechanic
+Alien
+Monster
+Zauberer
+Hexe
+Abenteurer
+Assersine
+Seefahrer
+Koch
+Roboter
+Geist
+Mensch
+Skelett
+[Ente, Gans, Pinguin, Fisch, Wal, Hai]
+[Welpe, Hund, Kätzchen, Katze, Mammut, Dinosaurier, Drache]
+[Biene, Ameise, Fliege, Mosquito]
+Schneemann
+Wissenschaftler
+Programmierer
+Student
+Youtuber
+Influencer
+Berühmtheit
+Präsident
+Politiker
+[Geschäftsmann, Geschäftsfrau]
+Imperator
+Gott
+Ninja
+Technikfeind
+Vampir
+Hacker
+Zombie
+Actionfigur
+geometrische Figur
+Dieb
+Pirat
+künstliche Intelligenz
+[Prinz, Prinzessin, König, Königin]
+[Großmutter, Großvater]
+[Troll, Kobold, Ork, Zwerg]
+Ritter
+Bauer
+Astronaut
+Pilot
+Chocolatier
+Archeologe
+Doktor
+Polizeioffizir
+Detektiv
+Pyromane
+Gamer
+Steuerbeamter
+Klempner
+Elektriker
+Mechaniker
 #end
 
 ----------------- DESCRIPTIONS (you play as a ... character) ----------------- 
 #character_description:
-tiny
-gigantic
-lonely
-time-travelling
-evil
-easily-frightened
-extremely [attractive, short, tall, intimidating, clumsy]
-good-looking
-courageous
-anxious
-forgetful
-famous
-shy
-scary-looking
-one-eyed
-bored
-ambitious
-power-hungry
-two-headed
-wise
-elderly
-greedy
-invisible
-magical
-blind
-peace-loving
-polite
-worried
-rude
-genetically [modified, enhanced]
-grumpy
-charming
-energetic
-imaginary
-[unfriendly, friendly]
-nervous
-optimistic
-pessimistic
-undead
-quirky
-sarcastic
-well-dressed
-lazy
-talkative
-royal
-cunning
-playful
-penniless
-wealthy
-impatient
-wind-up
-law-[abiding,breaking]
-over-enthusiastic
+kleiner
+gigantischer
+einsamer
+zeitreisender
+böser
+leicht erschreckbarer
+extrem [attractiver, kleiner, großer, fürchteinflößender, ungeschickter]
+gut aussehender
+mutiger
+ängstlicher
+vergesslicher
+berühmter
+schüchterner
+gruselig aussehender
+einaugiger
+gelangweilter
+ehrgeiziger
+machthungriger
+zweiköpfiger
+weiser
+älterer
+gieriger
+unsichtbarer
+magischer
+blinder
+friedliebender
+netter
+besorgter
+unhöflicher
+genetisch [verändert, verbessert]
+mürrischer
+charmanter
+energiegeladener
+erfundener
+[unfreundlicher, freundlicher]
+nervöser
+optimistischer
+pessimistischer
+untoter
+skurriler
+sarkastischer
+gut angezogenener
+fauler
+gesprächiger
+königlicher
+listiger
+verspielter
+mittelloser
+wohlhabender
+ungeduldiger
+aufzieh
+gesetzes[treuer,feindlich]
+überbegeisterter
 #end
 
 
 #character_description_post:
-from [the future, another planet, another dimension, an alternate reality, a parallel universe]
-with no [friends, money, morals, soul]
-who loves [kittens, puppies, rainbows, cars, spaceships, animals, flowers, long walks, writing, baking, gardening, fishing, fire]
-who (is,are) passionate about [recycling, model trains, education, animal-rights, stamp-collecting, arcade games, board games, tea]
+aus [der Zukunft, einer anderen Dimension, einer alternativen Realität, einem parallel Universum]
+von [einem anderen Planeten]
+ohne [Freunde, Geld, Moral, Seele]
+der [Kätzchen, Welpen, Regenbögen, Autos, Raumschiffe, Tiere, Blumen, lange Spaziergänge, Scheiben, Backen, Gartenarbeit, Fischen, Feuer] liebt
+der (is,are) passionate über [recycling, model trains, education, animal-rights, stamp-collecting, arcade games, board games, tea]
 with [a tragic backstory, an adorable pet, a secret superpower, a secret identity]
 who (can,can) [fly, bend time, turn invisible, teleport, summon spirits]
 with a debilitating fear of [heights, ghosts, flying, water, being alone, people, blood, small spaces, crowds, spiders]
